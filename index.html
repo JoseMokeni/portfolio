@@ -40,9 +40,7 @@
             </li>
 
             <li class="nav__item">
-              <a href="#about" class="nav__link"
-                ><i class="bx bxs-user"></i
-              ></a>
+              <a href="#about" class="nav__link"><i class="bx bxs-user"></i></a>
             </li>
 
             <li class="nav__item">
@@ -63,7 +61,7 @@
           </ul>
         </div>
         <!-- Theme change button -->
-        <i class="bx bx-moon change-theme" id="theme-button"></i>
+        <!-- <i class="bx bx-moon change-theme" id="theme-button"></i> -->
       </nav>
     </header>
 
@@ -89,7 +87,7 @@
           </div>
 
           <div class="home__handle">
-            <img src="assets/img/perfil.png" alt="" class="home__img" />
+            <img src="assets/img/profil.png" alt="" class="home__img" />
           </div>
 
           <div class="home__social">
@@ -101,7 +99,11 @@
               <i class="bx bxl-linkedin-square"></i>
             </a>
 
-            <a href="https://github.com/JoseMokeni" target="_blank" class="home__social-link">
+            <a
+              href="https://github.com/JoseMokeni"
+              target="_blank"
+              class="home__social-link"
+            >
               <i class="bx bxl-github"></i>
             </a>
           </div>
@@ -118,7 +120,7 @@
         <h2 class="section__title">About Me</h2>
 
         <div class="about__container container grid">
-          <img src="assets/img/about.jpg" alt="" class="about__img" />
+          <img src="assets/img/about.png" alt="" class="about__img" />
           <div class="about__data">
             <div class="about__info">
               <div class="about__box">
@@ -138,7 +140,15 @@
               </div>
             </div>
             <p class="about__description">
-              As a software engineering student, I have developed a strong foundation in programming languages, software development methodologies, and problem-solving skills. Through various academic and personal projects, I have gained experience in developing and designing software solutions, testing and debugging code, and collaborating with team members to achieve project objectives. My passion for technology and eagerness to learn new technologies make me a valuable asset to any software development team.
+              As a software engineering student, I have developed a strong
+              foundation in programming languages, software development
+              methodologies, and problem-solving skills. Through various
+              academic and personal projects, I have gained experience in
+              developing and designing software solutions, testing and debugging
+              code, and collaborating with team members to achieve project
+              objectives. My passion for technology and eagerness to learn new
+              technologies make me a valuable asset to any software development
+              team.
             </p>
             <a href="#contact" class="button">Contact Me</a>
           </div>
@@ -473,57 +483,92 @@
         <div class="work__filters">
           <span class="work__item active-work" data-filter="all">All</span>
           <span class="work__item" data-filter=".web">Web</span>
-          <span class="work__item" data-filter=".movil">Mobile</span>
-          <span class="work__item" data-filter=".design">Design</span>
+          <span class="work__item" data-filter=".desktop">Desktop</span>
+          <!-- <span class="work__item" data-filter=".design">Design</span> -->
         </div>
         <div class="work__container container grid">
           <div class="work__card mix web">
-            <img src="assets/img/work1.jpg" alt="" class="work__img" />
+            <img
+              src="assets/img/feedbackIllustration.jpg"
+              alt=""
+              class="work__img"
+            />
 
-            <h3 class="work__title">Web design</h3>
+            <h3 class="work__title">Feedback App</h3>
+            <span class="work__subtitle">React JS, JSON Server</span>
 
-            <a href="#" class="work__button">
+            <a
+              href="https://astonishing-otter-51f9d6.netlify.app/"
+              class="work__button"
+            >
               Demo <i class="bx bx-right-arrow-alt work__icon"></i>
             </a>
           </div>
 
-          <div class="work__card mix movil">
-            <img src="assets/img/work2.jpg" alt="" class="work__img" />
+          <div class="work__card mix desktop">
+            <img
+              src="assets/img/moviesIllustration.jpg"
+              alt=""
+              class="work__img"
+            />
 
-            <h3 class="work__title">App movil</h3>
-
-            <a href="#" class="work__button">
-              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            <h3 class="work__title">ITMovies (Movies Management System) v1</h3>
+            <span class="work__subtitle">JavaFX, MySQL</span>
+            <a
+              href="https://github.com/JoseMokeni/ITMovies"
+              class="work__button"
+            >
+              Github Repo <i class="bx bx-right-arrow-alt work__icon"></i>
             </a>
           </div>
 
-          <div class="work__card mix design">
-            <img src="assets/img/work3.jpg" alt="" class="work__img" />
+          <div class="work__card mix desktop">
+            <img
+              src="assets/img/moviesIllustration.jpg"
+              alt=""
+              class="work__img"
+            />
 
-            <h3 class="work__title">Brand design</h3>
-
-            <a href="#" class="work__button">
-              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            <h3 class="work__title">ITMovies (Movies Management System) v2</h3>
+            <span class="work__subtitle">.NET WindowsForms, SQL Server</span>
+            <a
+              href="https://github.com/JoseMokeni/ITMoviesWinForms"
+              class="work__button"
+            >
+              Github Repo <i class="bx bx-right-arrow-alt work__icon"></i>
             </a>
           </div>
 
           <div class="work__card mix web">
-            <img src="assets/img/work4.jpg" alt="" class="work__img" />
+            <img
+              src="assets/img/goalSettingIllustration.jpg"
+              alt=""
+              class="work__img"
+            />
 
-            <h3 class="work__title">Web design</h3>
-
-            <a href="#" class="work__button">
-              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            <h3 class="work__title">Goal Setter App</h3>
+            <span class="work__subtitle"
+              >MERN (React JS, Node JS, Express JS, MongoDB)</span
+            >
+            <a
+              href="https://github.com/JoseMokeni/GoalSetterMERNApp"
+              class="work__button"
+            >
+              Github Repo <i class="bx bx-right-arrow-alt work__icon"></i>
             </a>
           </div>
 
-          <div class="work__card mix movil">
-            <img src="assets/img/work5.jpg" alt="" class="work__img" />
+          <div class="work__card mix desktop">
+            <img
+              src="assets/img/libraryIllustration.jpg"
+              alt=""
+              class="work__img"
+            />
 
-            <h3 class="work__title">App movil</h3>
-
+            <h3 class="work__title">Library Management Software</h3>
+            <span class="work__subtitle">Java Swing, MySQL</span>
             <a href="#" class="work__button">
-              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+              Github Repo <i class="bx bx-right-arrow-alt work__icon"></i>
             </a>
           </div>
         </div>
@@ -545,10 +590,10 @@
               <div class="contact__card">
                 <i class="bx bx-mail-send contact__card-icon"></i>
                 <h3 class="contact__card-title">Email</h3>
-                <span class="contact__card-data">jose@example.com</span>
+                <span class="contact__card-data">mokenijose@gmail.com</span>
 
                 <a
-                  href="mailto:jmmokeni@gmail.com"
+                  href="mailto:mokenijose@gmail.com"
                   target="_blank"
                   class="contact__button"
                 >
@@ -560,9 +605,13 @@
               <div class="contact__card">
                 <i class="bx bxl-whatsapp contact__card-icon"></i>
                 <h3 class="contact__card-title">Whatsapp</h3>
-                <span class="contact__card-data">00 000 000</span>
+                <span class="contact__card-data">+216 52 092 325</span>
 
-                <a href="#" target="_blank" class="contact__button">
+                <a
+                  href="https://wa.me/21652092325"
+                  target="_blank"
+                  class="contact__button"
+                >
                   Write me
                   <i class="bx bx-right-arrow-alt contact__button-icon"></i>
                 </a>
@@ -571,9 +620,13 @@
               <div class="contact__card">
                 <i class="bx bxl-messenger contact__card-icon"></i>
                 <h3 class="contact__card-title">Messenger</h3>
-                <span class="contact__card-data">messenger_user</span>
+                <span class="contact__card-data">josemarie.mokeni</span>
 
-                <a href=#" target="_blank" class="contact__button">
+                <a
+                  href="https://m.me/josemarie.mokeni"
+                  target="_blank"
+                  class="contact__button"
+                >
                   Write me
                   <i class="bx bx-right-arrow-alt contact__button-icon"></i>
                 </a>
@@ -582,22 +635,46 @@
           </div>
           <div class="contact__content">
             <h3 class="contact__title">Write me your project</h3>
-            <form action="" class="contact__form">
+            <form
+              action="https://formspree.io/f/xayzjpop"
+              method="POST"
+              class="contact__form"
+            >
               <div class="contact__form-div">
                 <label for="" class="contact__form-tag">Names</label>
-                <input type="text" placeholder="Insert your name" class="contact__form-input">
+                <input
+                  type="text"
+                  placeholder="Insert your name"
+                  class="contact__form-input"
+                  name="Names"
+                  required
+                />
               </div>
 
               <div class="contact__form-div">
                 <label for="" class="contact__form-tag">Mail</label>
-                <input type="email" placeholder="Insert your email" class="contact__form-input">
+                <input
+                  type="email"
+                  placeholder="Insert your email"
+                  class="contact__form-input"
+                  name="Email"
+                  required
+                />
               </div>
 
               <div class="contact__form-div contact__form-area">
                 <label for="" class="contact__form-tag">Project</label>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact__form-input"></textarea>
+                <textarea
+                  name="message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Write your project"
+                  class="contact__form-input"
+                  required
+                ></textarea>
               </div>
-              <button class="button">Send Message</button>
+              <button type="submit" class="button">Send Message</button>
             </form>
           </div>
         </div>
@@ -614,16 +691,28 @@
         </ul>
 
         <ul class="footer__social">
-          <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
-            <i class='bx bxl-facebook'></i>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-facebook"></i>
           </a>
 
-          <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
-            <i class='bx bxl-instagram' ></i>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-instagram"></i>
           </a>
 
-          <a href="https://twitter.com/?lang=en" target="_blank" class="footer__social-link">
-            <i class='bx bxl-twitter' ></i>
+          <a
+            href="https://twitter.com/?lang=en"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-twitter"></i>
           </a>
         </ul>
 

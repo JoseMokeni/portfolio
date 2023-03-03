@@ -614,6 +614,12 @@ body.light-theme {
 .work__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+  /* margin-bottom: 0.25rem; */
+}
+
+.work__subtitle {
+  font-size: var(--small-font-size);
+  font-weight: var(--small-font-size);
   margin-bottom: 0.25rem;
 }
 
@@ -902,7 +908,7 @@ body.light-theme {
   }
 
   .work__img {
-    width: 295px;
+    width: 325px;
   }
 
   .contact__info {
@@ -1021,11 +1027,12 @@ body.light-theme {
 
   .work__img {
     margin-bottom: 1rem;
+    width: 350px;
   }
 
-  .work__title {
+  /* .work__title {
     margin-bottom: 0.5rem;
-  }
+  } */
 
   .contact__container {
     column-gap: 6rem;

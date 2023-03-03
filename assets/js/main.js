@@ -1,3 +1,9 @@
+// ============== LOADER ================
+const loaderDiv = document.querySelector(".loader");
+window.addEventListener("load", () => {
+  loaderDiv.style.display = "none";
+});
+
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 const scrollHeader = () => {
   const header = document.getElementById("header");
